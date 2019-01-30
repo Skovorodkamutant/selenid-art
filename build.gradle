@@ -1,0 +1,17 @@
+group 'Project selenide'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'com.codeborne:selenide:5.0.1'
+    compile 'com.devskiller:jfairy:0.6.2'
+}
+

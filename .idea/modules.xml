@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Git-selenid-art.iml" filepath="$PROJECT_DIR$/.idea/modules/Git-selenid-art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Git-selenid-art_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Git-selenid-art_main.iml" group="selenid-art" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Git-selenid-art_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Git-selenid-art_test.iml" group="selenid-art" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenid-art.iml" filepath="$PROJECT_DIR$/.idea/modules/selenid-art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenid-art_main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenid-art_main.iml" group="selenid-art" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenid-art_test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenid-art_test.iml" group="selenid-art" />
+    </modules>
+  </component>
+</project>
