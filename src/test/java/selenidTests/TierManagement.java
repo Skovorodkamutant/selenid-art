@@ -87,7 +87,7 @@ public class TierManagement extends ParametersHelper {
     public void bEditUserMessage() {
         $(By.cssSelector("div.sml-expandable-item-title")).shouldHave(text("BASKETBALL"));
         $(By.xpath("/html/body/app-root/app-dashboard/div/div/div/app-tier-management/app-dashboard-title/div[2]/div/div[1]/app-tier-management-list[1]/expandable/div/div/div[1]/span")).click();
-        $("button.theme--white_icon").click();
+        $$("div.table-container-row").find(text("Test Buffalo")).find("button.theme--white_icon").click();
         $(By.cssSelector("div.menu-item-container")).shouldHave(text("Edit")).click();
         $(By.xpath("/html/body/app-root/app-dashboard/div/div/div/app-tier-management/app-dashboard-title/div[2]/div/div[2]/app-tier-management-change/div/div[1]")).shouldHave(text("EDIT TIER"));
         $(By.xpath("/html/body/app-root/app-dashboard/div/div/div/app-tier-management/app-dashboard-title/div[2]/div/div[2]/app-tier-management-change/div/div[2]/form/div[1]/dropdown/div/div[1]/label")).click();
