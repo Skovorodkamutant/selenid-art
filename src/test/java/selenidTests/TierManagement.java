@@ -53,7 +53,7 @@ public class TierManagement extends ParametersHelper {
     @Test
     public void openCloseCreateForm() {
         $(By.cssSelector("div.sml-expandable-item-title")).shouldHave(text("BASKETBALL")).find("div.add-btn").click();
-       // $("").click();
+        // $("").click();
         $(By.xpath("/html/body/app-root/app-dashboard/div/div/div/app-tier-management/app-dashboard-title/div[2]/div/div[2]/app-tier-management-change/div/div[1]")).shouldHave(text("ADD TIER"));
     }
 
@@ -112,5 +112,9 @@ public class TierManagement extends ParametersHelper {
         $(By.cssSelector("#div.table-root")).shouldNot(text("Test Buffalo"));
     }
 
+    @Test
+    public void cDleteUser() {
+        $(By.cssSelector("div.sml-expandable-item-title")).shouldHave(text("BASKETBALL"));
 
+    }
 }
