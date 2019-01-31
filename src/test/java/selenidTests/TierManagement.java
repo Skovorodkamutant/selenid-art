@@ -110,7 +110,6 @@ public class TierManagement extends ParametersHelper {
         $(By.xpath("//*[@id=\"tableRoot\"]/span/span/app-table-rows[3]/div/app-table-row[3]/div/div/app-tier-management-sub-menu/div/app-dropdown-menu/div/div")).find("#tableRoot > span > span > app-table-rows:nth-child(3) > div > app-table-row:nth-child(3) > div > div > app-tier-management-sub-menu > div > app-dropdown-menu > div > div > app-dropdown-menu-item:nth-child(2) > div").click();
         $(By.xpath("/html/body/app-root/app-dashboard/div/div/div/app-tier-management/app-dashboard-title/div[2]/div/div[1]/app-tier-management-list[1]/modal/div/div/div/div[2]/modal-content/div[3]/button")).click();
         $(By.cssSelector("#div.table-root")).shouldNot(text("Test Buffalo"));
-
     }
 
 
